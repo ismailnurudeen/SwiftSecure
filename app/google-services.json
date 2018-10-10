@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "685777295782",
+    "firebase_url": "https://swift-6babd.firebaseio.com",
+    "project_id": "swift-6babd",
+    "storage_bucket": "swift-6babd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685777295782:android:c12e0d9e7c48431e",
+        "android_client_info": {
+          "package_name": "com.ss.swiftsecure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685777295782-p5c4m8910rr1n6kc0nhlht3gpkb4jr6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAouhIo-31SEPo1xo8xVWrPCosE6aJx0p0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

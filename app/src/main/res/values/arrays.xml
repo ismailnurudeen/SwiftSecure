@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="crime_category">
+        <item>Kidnapping</item>
+        <item>Rape</item>
+        <item>Robbery</item>
+        <item>PipeLine Vandalism</item>
+        <item>Buglary</item>
+        <item>Riot</item>
+        <item>Others</item>
+    </string-array>
+</resources>

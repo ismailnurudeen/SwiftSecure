@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF">
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:layout_alignParentTop="true">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+</android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="74dp"
+        android:gravity="center"
+        android:text="Emergency Situation? Click to alert Security Officials"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true" />
+
+    <ImageButton
+        android:id="@+id/security_alert"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:src="@drawable/red_panic_btn"
+        android:scaleType="centerCrop"
+        android:background="@color/white"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/toolbar_background"
+        android:layout_above="@+id/bottom_bar"/>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+    <com.andexert.library.RippleView
+        android:id="@+id/home_button"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:rv_type="doubleRipple"
+        app:rv_centered="true"
+        app:rv_alpha="200"
+        android:layout_centerHorizontal="true"
+        app:rv_color="@color/colorAccent"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home"
+            android:contentDescription="@string/home" />
+    </com.andexert.library.RippleView>
+    <com.andexert.library.RippleView
+        android:id="@+id/report_button"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:rv_type="doubleRipple"
+        app:rv_centered="true"
+        app:rv_alpha="200"
+        app:rv_color="@color/colorAccent"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:id="@+id/report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/megaphone"
+            android:contentDescription="@string/home" />
+    </com.andexert.library.RippleView>
+    <com.andexert.library.RippleView
+        android:id="@+id/emergency_button"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:rv_type="doubleRipple"
+        app:rv_centered="true"
+        app:rv_alpha="200"
+        app:rv_color="@color/colorAccent"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/home_button"
+        android:layout_marginEnd="40dp"
+        android:layout_toStartOf="@+id/home_button" >
+
+        <ImageButton
+            android:id="@+id/emergency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/customer_service"
+            android:contentDescription="@string/emergency"
+            android:layout_alignParentLeft="true" />
+    </com.andexert.library.RippleView>
+    <com.andexert.library.RippleView
+        android:id="@+id/crime_button"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:rv_type="doubleRipple"
+        app:rv_centered="true"
+        app:rv_color="@color/colorAccent"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        app:rv_alpha="200"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/home_button"
+        android:layout_toEndOf="@+id/home_button" >
+        <ImageButton
+            android:id="@+id/crime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/interview"
+            android:contentDescription="@string/crime_report" />
+    </com.andexert.library.RippleView>
+    <com.andexert.library.RippleView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:rv_type="doubleRipple"
+        app:rv_centered="true"
+        app:rv_alpha="200"
+        app:rv_color="@color/colorAccent"
+        android:id="@+id/danger_zone_button"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
+        <ImageButton
+            android:id="@+id/danger_zone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/red_flag"
+            android:contentDescription="@string/danger_zone" />
+    </com.andexert.library.RippleView>
+    </RelativeLayout>
+

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SwiftSecure</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="help_me">Help Me</string>
+    <string name="contact_auth">Emergency</string>
+    <string name="report">Report</string>
+    <string name="danger_zone">Danger Zone</string>
+    <string name="description">Description</string>
+    <string name="address">Location</string>
+    <string name="use_my_contact_info">Send My Info</string>
+    <string name="type">Crime Type</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="title_activity_emergency_contact">Emergency Contact</string>
+    <string name="title_activity_panic_test">Emergency Contact</string>
+    <string name="home">Home</string>
+    <string name="emergency">Emergency</string>
+    <string name="crime_report">Crime Report</string>
+    <string name="title_activity_crime_report">CrimeReportActivity</string>
+    <string name="fedral_fire_service">Fedral Fire Service</string>
+    <string name="nigeria_police_force">Nigeria Police Force</string>
+    <string name="fedral_road_safty_corps">Fedral Road Safty Corps</string>
+    <string name="title_activity_report_to_authority">ReportToAuthorityActivity</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>
